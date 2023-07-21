@@ -505,7 +505,7 @@ section {
   }
  
   .home {
-    background-position: 90% 20%;
+    background-position: 80% 14%;
     background-size: 190px 190px;
   }
 }
@@ -522,7 +522,7 @@ section {
     width: 100%;
   }
   .home {
-    background-position: 90% 20%;
+    background-position: 80% 14%;
     background-size: 150px 150px;
   }
 }
@@ -546,7 +546,7 @@ section {
     text-align: center;
   }
   .home {
-    background-position: 100% 15%;
+    background-position: 90% 15%;
     background-size: 100px 100px;
   }
 
