@@ -482,7 +482,7 @@ section {
     margin: 3rem 0;
   }
   .home {
-    background-position: bottom right;
+    background-position: 90% 20%;
     background-size: 200px 200px;
   }
 }
@@ -504,7 +504,12 @@ section {
     height: 38px;
   }
  
+  .home {
+    background-position: 90% 20%;
+    background-size: 190px 190px;
+  }
 }
+
 
 @media (max-width: 462px) {
   .home-content h1 {
@@ -516,9 +521,11 @@ section {
   .contact form .input-box .input-field {
     width: 100%;
   }
-  .home{
-    background-image: none;
+  .home {
+    background-position: 90% 15%;
+    background-size: 150px 150px;
   }
+}
 
   .footer {
     flex-direction: column-reverse;
@@ -527,7 +534,7 @@ section {
     margin-top: 2rem;
     text-align: center;
   }
-}
+
 @media (max-width: 371px) {
   .home {
     justify-content: center;
@@ -538,4 +545,9 @@ section {
     flex-direction: column;
     text-align: center;
   }
+  .home {
+    background-position: 100% 15%;
+    background-size: 100px 100px;
+  }
+
 }
