@@ -73,6 +73,9 @@ section {
   display: flex;
   align-items: center;
   padding: 0 6%;
+ background: url("/img/IMG_20210722_164632-removebg-preview.png") no-repeat;
+ background-position: right;
+
 }
 .home-content {
   max-width: 60rem;
@@ -441,10 +444,12 @@ section {
   }
   .home {
     padding: 0 4%;
+    background-size: 400px 400px;
   }
   .footer {
     padding: 2rem 4%;
   }
+ 
 }
 
 @media (max-width: 768px) {
@@ -476,6 +481,10 @@ section {
     font-size: 2rem;
     margin: 3rem 0;
   }
+  .home {
+    background-position: bottom right;
+    background-size: 200px 200px;
+  }
 }
 @media (max-width: 530px) {
   html {
@@ -494,6 +503,7 @@ section {
     width: 38px;
     height: 38px;
   }
+ 
 }
 
 @media (max-width: 462px) {
@@ -505,6 +515,9 @@ section {
   }
   .contact form .input-box .input-field {
     width: 100%;
+  }
+  .home{
+    background-image: none;
   }
 
   .footer {
