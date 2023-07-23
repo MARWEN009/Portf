@@ -359,7 +359,7 @@ section {
 .projet a{
   display: flex;
   flex-direction: row;
-  font-size: 20px;
+  
  
   color: aliceblue;
   height: 2.5 rem;
@@ -514,6 +514,9 @@ section {
     background-position: 90% 20%;
     background-size: 200px 200px;
   }
+  .home-content h1{
+    font-size: 24px;
+  }
 }
 @media (max-width: 530px) {
   html {
@@ -536,6 +539,9 @@ section {
   .home {
     background-position:100% 14%;
     background-size: 190px 190px;
+  }
+  .home-content h1{
+    font-size: 24px;
   }
 }
 
@@ -577,6 +583,9 @@ section {
   .home {
     background-position: 100% 15%;
     background-size: 100px 100px;
+  }
+  .home-content h1{
+    font-size: 24px;
   }
 
 }
